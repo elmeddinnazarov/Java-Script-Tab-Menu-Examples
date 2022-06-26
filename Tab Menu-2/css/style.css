@@ -1,0 +1,40 @@
+#tabMenu .outline-box {
+  margin-top: 100px;
+  border: 2px solid gray;
+  background-color: #ebebeb;
+}
+
+#tabMenu .outline-box .topic-box {
+  padding: 0px 20px;
+  border-bottom: 2px solid gray;
+  background-color: #cdcdcd;
+}
+
+#tabMenu .outline-box .topic-box .btn {
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+#tabMenu .outline-box .topic-box .btn:focus {
+  background-color: #969696;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#tabMenu .outline-box .topic-box .btn:hover {
+  background-color: #969696;
+}
+
+#tabMenu .outline-box .content-box {
+  padding: 15px 25px;
+}
+
+#tabMenu .outline-box .content-box .optional-text-1,
+#tabMenu .outline-box .content-box .optional-text-2,
+#tabMenu .outline-box .content-box .optional-text-3 {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
